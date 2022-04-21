@@ -1,6 +1,47 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
 {% block content %}
-<h1 class="display-4 text-success">It works!</h1>
+<div class="h-100 container-fluid">
+    <div class="h-100 row">
+        <div class="col-10 col-lg-8 mx-auto">
+            <div class="row hot-product hot-product-1 h-30 my-5">
+                <div class="col-md-4 product-text">
+                    <h1 class="display-4 logo-font text-black">Liverpool home kit 2021/22</h1>
+                    <h4>
+                        <a href="" class="btn btn-lg buy-now-button text-uppercase rounded-0 py-3">Buy Now</a>
+                    </h4>
+                </div>
+                <div class="col-md-8 product-image">Image</div>
+            </div>
+            <div class="row hot-product hot-product-2 h-30 my-5">
+                <div class="col-md-4 product-text">
+                    <h1 class="display-4 logo-font text-black">Sony Alpha A7IV</h1>
+                    <h4>
+                        <a href="" class="btn btn-lg buy-now-button text-uppercase rounded-0 py-3">Buy Now</a>
+                    </h4>
+                </div>
+                <div class="col-md-8 product-image">Image</div>
+            </div>
+            <div class="row hot-product hot-product-3 h-30 my-5">
+                <div class="col-md-4 product-text">
+                    <h1 class="display-4 logo-font text-black">Chuck Taylor - Classic Black Converse</h1>
+                    <h4>
+                        <a href="" class="btn btn-lg buy-now-button text-uppercase rounded-0 py-3">Buy Now</a>
+                    </h4>
+                </div>
+                <div class="col-md-8 product-image">Image</div>
+            </div>
+        </div>
+
+    </div>
+</div>
 {% endblock %}
